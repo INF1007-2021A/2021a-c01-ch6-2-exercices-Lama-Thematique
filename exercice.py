@@ -17,7 +17,7 @@ def color_name_to_hex(colors: list) -> list:
 
 
 def create_list() -> list:
-    return list(range(15))+list(range(351,10001))
+    return list(range(15))+list(range(351,10000))
 
 
 def compute_mse(model_dict: dict) -> dict:
